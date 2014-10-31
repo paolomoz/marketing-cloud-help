@@ -227,7 +227,8 @@ a:hover {
   background-image: url(https://wwwimages2.adobe.com/content/dam/Adobe/images/shared/product_mnemonics/122x92/cc-logo-122x92.png);
 }
 .mnemonic.lightroom {
-  background-image: url(https://wwwimages2.adobe.com/content/dam/Adobe/images/shared/product_mnemonics/48x48/lr-cc-app-ccm-48x48.png);
+/*  background-image: url(https://wwwimages2.adobe.com/content/dam/Adobe/images/shared/product_mnemonics/48x48/lr-cc-app-ccm-48x48.png);*/
+  background-image: url(../img/amc-main-icon-48x48.png);
 }
 .mnemonic.muse {
   background-image: url(https://wwwimages2.adobe.com/content/dam/Adobe/images/shared/product_mnemonics/48x48/mu-cc-app-ccm-48x48.png);

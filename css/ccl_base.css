@@ -242,7 +242,8 @@ html.js .hide {
 
 /* line 44, ../../src/sass/ccl_base/components/_mnemonics.scss */
 .mnemonic.lightroom {
-  background-image: url(https://wwwimages2.adobe.com/content/dam/Adobe/images/shared/product_mnemonics/48x48/lr-cc-app-ccm-48x48.png);
+/*  background-image: url(https://wwwimages2.adobe.com/content/dam/Adobe/images/shared/product_mnemonics/48x48/lr-cc-app-ccm-48x48.png);*/
+  background-image: url({{ "/img/amc-main-icon-48x48.png" | prepend: site.baseurl }});
 }
 
 /* line 47, ../../src/sass/ccl_base/components/_mnemonics.scss */
