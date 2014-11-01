@@ -571,7 +571,8 @@ body{
 
 .learn-section {
   /* background-image: linear-gradient(to bottom, #FFFFFF 0%, #969696 100%); */
-  background: #ebebeb;
+/*  background: #ebebeb;*/
+  background: #fff;
   text-align: center;
   font-weight: 300;
   padding: 2.5rem 0;
