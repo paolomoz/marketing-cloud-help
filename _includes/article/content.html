@@ -1,241 +1,1457 @@
 <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 <link rel="stylesheet" href="{{ "/css/learn-support.css" | prepend: site.baseurl }}">
 <link rel="stylesheet" href="{{ "/css/globalnav.css" | prepend: site.baseurl }}">
-<link rel="stylesheet" href="{{ "/css/ccl_base.css" | prepend: site.baseurl }}">
-<link rel="stylesheet" href="{{ "/css/ccl_explore.css" | prepend: site.baseurl }}">
 <link rel="stylesheet" href="{{ "/css/lightroom.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/css/ccl_base.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/css/ccl_content.css" | prepend: site.baseurl }}">
 
-<div class="content-wrapper">
+<article class="multi-video">
 
-    <div id="sticky-anchor"></div>
-    <section class="path-navigation nav-bar-shadow-container">
-        <div class="nav-bar-inner-wrapper">
-            <div class="learn-path-tabs">
-                <a class="learn-path-tab" data-tooltip="New to Photoshop Lightroom? Start here." data-target="get-started">Get started</a>
-                <a class="learn-path-tab selected" data-tooltip="Dig in. Learn core concepts and skills." data-target="fundamentals">Learn essentials</a>
-                <a class="learn-path-tab" data-tooltip="Go further. Advanced tutorials and workflows." data-target="key-techniques">Key techniques</a>
-            </div>
-            <div class="nav-bar-search-container">
-                <form class="ccl-search" action="/tutorials-search.html" method="get">
-                    <input class="ccl-search-input" name="q" placeholder="Search tutorials" autocomplete="off" type="text">
-                    <input class="ccl-search-btn" value="" type="submit">
-                    <input id="ccl-search-app" name="app" value="lightroom" type="hidden">
-                </form>
-            </div>
-        </div>
-    </section>
-    <section class="learn-paths">
-
-        <section id="fundamentals-path" class="learn-path active-tab">
-            <header class="learn-path-header">
-                <h2 class="learn-path-name" title="Dig in. Learn core concepts and skills.">Learn essentials</h2>
-                <p class="learn-path-prompt">Choose a tutorial to start learning.</p>
-            </header>
-
-            <div class="learn-path-content">
-                <section class="set-header">
-                    <h3 class="set-header-title">Lightroom workspace</h3>
-                    <ul class="tutorial-list">
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-general-workflow.html?set=lightroom--fundamentals--lightroom-workspace">General Lightroom workflow</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-work-panels-lights-out.html?set=lightroom--fundamentals--lightroom-workspace">Work with panels and Lights Out</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/creative-cloud/how-to/creative-cloud-sync-settings.html?set=lightroom--fundamentals--lightroom-workspace">Sync preferences and settings</a>
-                            </article>
-                        </li>
-                    </ul>
-                </section>
-                <section class="set-header">
-                    <h3 class="set-header-title">Import photos</h3>
-                    <ul class="tutorial-list">
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/help/importing-photos-lightroom-basic-workflow.html?set=lightroom--fundamentals--import-photo">Import photos from a camera or card reader</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-import-file-formats.html?set=lightroom--fundamentals--import-photo">Import images and look at file formats</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-move-folder-files.html?set=lightroom--fundamentals--import-photo">Move folders around in Lightroom</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/help/locate-missing-photos.html?set=lightroom--fundamentals--import-photo">Locate missing photos</a>
-                            </article>
-                        </li>
-                    </ul>
-                </section>
-                <section class="set-header">
-                    <h3 class="set-header-title">Develop photos</h3>
-                    <ul class="tutorial-list">
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-develop-basics.html?set=lightroom--fundamentals--develop-photo">Develop basics</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-control-white-balance.html?set=lightroom--fundamentals--develop-photo">Control white balance</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-highlights-shadows-white-blacks.html?set=lightroom--fundamentals--develop-photo">Highlights, shadows, whites, and blacks</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-clarity-vibrance-saturation.html?set=lightroom--fundamentals--develop-photo">Work with Clarity, Vibrance, and Saturation</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-adjustment-brush-basics.html?set=lightroom--fundamentals--develop-photo">Adjustment Brush: the basics</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-bw-adjustments.html?set=lightroom--fundamentals--develop-photo">Work with B&amp;W adjustments</a>
-                            </article>
-                        </li>
-                    </ul>
-                </section>
-                <section class="set-header">
-                    <h3 class="set-header-title">Sharpening and noise reduction</h3>
-                    <ul class="tutorial-list">
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-sharpen-image.html?set=lightroom--fundamentals--sharpen-noise-reduction">Sharpen an image</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-reduce-image-noise.html?set=lightroom--fundamentals--sharpen-noise-reduction">Reduce image noise in Lightroom 5</a>
-                            </article>
-                        </li>
-                    </ul>
-                </section>
-                <section class="set-header">
-                    <h3 class="set-header-title">Retouching photos</h3>
-                    <ul class="tutorial-list">
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-healing-brush-visualization.html?set=lightroom--fundamentals--retouch-photo">How to get rid of something in your photo</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/portrait-touch-up-lightroom-5.html?set=lightroom--fundamentals--retouch-photo">Portrait touch up in Lightroom 5</a>
-                            </article>
-                        </li>
-                    </ul>
-                </section>
-                <section class="set-header">
-                    <h3 class="set-header-title">Cropping, lens and perspective corrections</h3>
-                    <ul class="tutorial-list">
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-correct-perspective-upright.html?set=lightroom--fundamentals--crop-correct">How to straighten and level objects in your photo</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-lens-correction.html?set=lightroom--fundamentals--crop-correct">Lens corrections in Lightroom 5</a>
-                            </article>
-                        </li>
-                    </ul>
-                </section>
-                <section class="set-header">
-                    <h3 class="set-header-title">Organizing photos</h3>
-                    <ul class="tutorial-list">
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-collections.html?set=lightroom--fundamentals--organize-photos">Organize - save your favorites into a collection</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-quick-collection.html?set=lightroom--fundamentals--organize-photos">The Quick Collection</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-rate-flag-label.html?set=lightroom--fundamentals--organize-photos">Organize - ratings, flags, and color labels</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-keyword-overview.html?set=lightroom--fundamentals--organize-photos">Keyword overview</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-filter-metadata.html?set=lightroom--fundamentals--organize-photos">Filter photographs based on metadata</a>
-                            </article>
-                        </li>
-                    </ul>
-                </section>
-                <section class="set-header">
-                    <h3 class="set-header-title">Catalogs</h3>
-                    <ul class="tutorial-list">
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/help/lightroom-catalog-basics.html?set=lightroom--fundamentals--catalogs">How Lightroom catalogs work</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/help/back-catalog.html?set=lightroom--fundamentals--catalogs">Back up a catalog</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-export-catalogs.html?set=lightroom--fundamentals--catalogs">Export a catalog</a>
-                            </article>
-                        </li>
-                    </ul>
-                </section>
-                <section class="set-header">
-                    <h3 class="set-header-title">Printing</h3>
-                    <ul class="tutorial-list">
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-print-photos.html?set=lightroom--fundamentals--printing">Print photos</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-create-contact-sheet.html?set=lightroom--fundamentals--printing">Create a contact sheet</a>
-                            </article>
-                        </li>
-                    </ul>
-                </section>
-                <section class="set-header">
-                    <h3 class="set-header-title">Exporting photos</h3>
-                    <ul class="tutorial-list">
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/help/exporting-photos-basic-workflow.html?set=lightroom--fundamentals--export-photo">Export photos from Lightroom</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-share-facebook.html?set=lightroom--fundamentals--export-photo">Share photos on Facebook</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-generate-web-gallery.html?set=lightroom--fundamentals--export-photo">Generate a web gallery</a>
-                            </article>
-                        </li>
-                    </ul>
-                </section>
-                <section class="set-header">
-                    <h3 class="set-header-title">Lightroom mobile</h3>
-                    <ul class="tutorial-list">
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-mobile-setup-sync.html?set=lightroom--fundamentals--lightroom-mobile">Lightroom mobile - setup, collections, and flags</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-mobile-adjustments.html?set=lightroom--fundamentals--lightroom-mobile">Lightroom mobile - crop, adjust color, and presets</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-mobile-manage-collections.html?set=lightroom--fundamentals--lightroom-mobile">Lightroom mobile - manage collections and auto import from a camera roll</a>
-                            </article>
-                        </li>
-                        <li>
-                            <article class="tutorial"><a href="/lightroom/how-to/lightroom-mobile-share.html?set=lightroom--fundamentals--lightroom-mobile">Lightroom mobile - showcase and share your photos</a>
-                            </article>
-                        </li>
-                    </ul>
-                </section>
-            </div>
-        </section>
-
-    </section>
+<div id="sticky-anchor"></div><section class="tutorial-nav-search-container">
+    <div class="nav-bar-shadow-container">
+      <div class="nav-bar-inner-wrapper">
+        <div class="nav-trigger-placeholder"><a class="nav-trigger-label"><span class="nav-trigger-label-show">Browse Documentation</span><span class="nav-trigger-label-hide">Hide Documentation</span></a></div>
+        <div class="nav-bar-search-container">
+    <form class="ccl-search" action="/tutorials-search.html" method="get">
+    <input class="ccl-search-input" name="q" placeholder="Search Documentation" autocomplete="off" type="text">
+    <input class="ccl-search-btn" value="" type="submit">
+    <input id="ccl-search-app" name="app" value="lightroom" type="hidden">
+    </form>
+  </div>
+</div>
+    </div>
     
+    
+<nav class="nav-drawer" style="background: none repeat scroll 0% 0% #F6F6F6;">
+    <section class="learn-paths nav-drawer-panel"  style="width:35%;height:400px;"><div class="nav-drawer-panel-title">Sections:</div>
+<div class="nav-drawer-item-list">
+
+    <div class="learn-path-name"><a data-target="fundamentals">Get Started</a></div>
+    <div class="learn-path-name"><a data-target="fundamentals">Authoring</a></div>
+    <div class="learn-path-name"><a data-target="fundamentals">Administering</a></div>
+    <div class="learn-path-name selected"><a data-target="fundamentals">Developing</a></div>
+    <div class="learn-path-name"><a data-target="fundamentals">Managing</a></div>
+    <div class="learn-path-name"><a data-target="fundamentals">Deploying and Maintaining</a></div>
+
+</div></section>
+
+    <section class="set-headers nav-drawer-panel" style="width:30%;height:400px;"><div class="nav-drawer-panel-title">Topics:</div>
+<div class="nav-drawer-item-list">
+
+    <div class="set-header-name"><a data-target="lightroom-workspace">The Basics</a></div>
+    <div class="set-header-name"><a data-target="lightroom-workspace">Platform</a></div>
+    <div class="set-header-name"><a data-target="lightroom-workspace">Components</a></div>
+    <div class="set-header-name"><a data-target="lightroom-workspace">Development Tools</a></div>
+    <div class="set-header-name"><a data-target="lightroom-workspace">Search</a></div>
+    <div class="set-header-name selected"><a data-target="retouch-photo">Sightly</a></div>
+    <div class="set-header-name"><a data-target="lightroom-workspace">Testing</a></div>
+    <div class="set-header-name"><a data-target="lightroom-workspace">Best Practices</a></div>
+
+</div></section>
+
+    <section class="tutorials nav-drawer-panel" style="width:30%;height:400px;"><div class="nav-drawer-panel-title">Pages:</div>
+<div class="nav-drawer-item-list">
+
+    <div class="tutorial-name"><a data-target="lightroom-healing-brush-visualization" href="">Getting Started</a></div>
+    <div class="tutorial-name"><a data-target="lightroom-healing-brush-visualization" href="">Expression Language</a></div>
+    <div class="tutorial-name selected"><a data-target="portrait-touch-up-lightroom-5">Block statements</a></div>
+    <div class="tutorial-name"><a data-target="lightroom-healing-brush-visualization" href="">Java Use API</a></div>
+    <div class="tutorial-name"><a data-target="lightroom-healing-brush-visualization" href="">Javascript Use API</a></div>
+    <div class="tutorial-name"><a data-target="lightroom-healing-brush-visualization" href="">Global Objects</a></div>
+    <div class="tutorial-name"><a data-target="lightroom-healing-brush-visualization" href="">JSP to Sightly</a></div>
+
+</div></section>
+</nav>
+    
+    
+    </section>
+<section class="tutorial-body">
+    <div class="par parsys"><a name="par_text_107" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">This section introduces the <b>Sightly HTML templating system</b> and provides a quick reference of the <b>syntax</b> and available <b>block statements</b>.</p>
+</div>
+</div>
+<a name="par_title_14" style="visibility:hidden"></a><div class="title section"><a name="What is Sightly?" href="./"></a><a name="What is Sightly?" href="./"></a><h2>What is Sightly?</h2></div>
+<a name="par_text" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Sightly is an HTML templating language, introduced with AEM 6.0. It takes the place of JSP (Java Server Pages) and ESP (ECMAScript Server Pages) as the preferred templating system for HTML.&nbsp;The name “Sightly” (meaning “pleasing to the eye”) highlights it’s focus on keeping your markup beautiful, and thus maintainable, once made dynamic.<br>
+</p>
+<p>As in all HTML server-side templating systems, a Sightly template defines the output sent to the browser by specifying the HTML itself, some basic presentation logic and variables be evaluated at runtime.</p>
+<p>But, Sightly differs from other templating systems in three main ways:</p>
+<ul>
+<li><b>Security by Default:</b> Sightly automatically filters and escapes all variables being output to the presentation layer to prevent cross-site-scripting (XSS) vulnerabilties. As Sightly understands the HTML syntax, it is capable to automatically detect the scope in which variables are placed, and automatically do proper context-aware escaping and XSS protection. Yet, it is possible to manually control the <a adhocenable="false" href="#Display%20Context">display context</a> if needed.</li>
+<li><b>Separation of Concerns</b>: The expressiveness of the Sightly template language is purposely limited, in order to make sure that a real programming language is used to express the corresponding presentation logic. This optional logic is invoked from the template with the <a adhocenable="false" href="#use">Use-API</a> pattern, making it easy to understand what is called for a given view, and to potentially have different logic for different views of the same resource.</li>
+<li><b>Sightly is HTML5</b>: A Sightly template is itself a valid HTML5 file. All Sightly-specific syntax is expressed either within a <span class="monospaced">data</span> attribute, or within HTML text. Any Sightly file opened as HTML in an editor will automatically benefit from any features provided by that editor for regular HTML.</li>
+</ul>
+<p>Sightly aims to reduce the time to market and the total cost of ownership for AEM projects:</p>
+<ul>
+<li><b>Reducing project costs</b><br>
+by making components editable for front-end developers.</li>
+<li><b>Reducing operational costs</b><br>
+by securing the templates against XSS injections.</li>
+<li><b>Reducing maintenance costs</b><br>
+by keeping templates readable and valid HTML5.</li>
+</ul>
+</div>
+</div>
+<a name="par_title" style="visibility:hidden"></a><div class="title section"><a name="Related" href="./"></a><a name="Related" href="./"></a><h2>Related</h2></div>
+<a name="par_text_117" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Before diving into the details, here are a few useful related links, either to get started with a more example-oriented methodology, or to complement what is covered on this page.</p>
+</div>
+</div>
+<a name="par_title_27" style="visibility:hidden"></a><div class="title section"><a name="Documentation"></a><a name="Documentation"></a><h4>Documentation</h4></div>
+<a name="par_text_115" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><ul style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">
+<li><a href="https://github.com/Adobe-Marketing-Cloud/sightly-spec" style="font-size: 1em; line-height: 1.25em;">The Specification</a><br>
+</li>
+<li><a href="https://github.com/Adobe-Marketing-Cloud/sightly-tck">The Technology Compatibility Kit</a></li>
+<li><a href="/docs/en/aem/6-0/develop/sightly/use-api-in-java.html">Java Use-API</a></li>
+<li><a href="/docs/en/aem/6-0/develop/sightly/use-api-in-javascript.html">JavaScript Use-API</a></li>
+</ul>
+</div>
+</div>
+<a name="par_title_28" style="visibility:hidden"></a><div class="title section"><a name="Articles"></a><a name="Articles"></a><h4>Articles</h4></div>
+<a name="par_text_114" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><ul style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">
+<li><a href="http://helpx.adobe.com/experience-manager/using/creating-sightly-component.html">Creating your first Sightly component</a></li>
+<li><a href="http://experiencedelivers.adobe.com/cemblog/en/experiencedelivers/2014/01/sightly-preview-part1.html">Sightly Introduction part 1</a></li>
+<li><a href="http://experiencedelivers.adobe.com/cemblog/en/experiencedelivers/2014/01/sightly-preview-part2.html">Sightly Introduction part&nbsp;2</a></li>
+<li><a href="http://experiencedelivers.adobe.com/cemblog/en/experiencedelivers/2014/03/sightly-intro-part3.html">Sightly Introduction part 3</a></li>
+<li><a href="http://experiencedelivers.adobe.com/cemblog/en/experiencedelivers/2014/04/sightly-intro-part-4.html">Sightly Introduction part 4</a></li>
+<li><a href="http://experiencedelivers.adobe.com/cemblog/en/experiencedelivers/2014/05/sightly-intro-part-5-faq.html">Sightly Introduction part 5</a></li>
+<li><a href="http://experiencedelivers.adobe.com/cemblog/en/experiencedelivers/2014/06/sightly-and-clientlibs.html">Sightly and Client Libraries</a></li>
+<li><a href="http://experiencedelivers.adobe.com/cemblog/en/experiencedelivers/2014/10/date-formatting-sightly.html">Sightly and Date Formatting</a></li>
+</ul>
+</div>
+</div>
+<a name="par_title_29" style="visibility:hidden"></a><div class="title section"><a name="Tools"></a><a name="Tools"></a><h4>Tools</h4></div>
+<a name="par_text_112" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><ul style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">
+<li><a href="https://github.com/Adobe-Marketing-Cloud/aem-sightly-repl">Sightly Read Eval Print Loop (REPL)</a><br>
+Great for learning Sightly, it is a live execution environment.</li>
+<li><a href="/docs/en/dev-tools/sightly-brackets.html" adhocenable="false">Sightly Brackets extension</a><br>
+Offers an easy workflow for front-end developers to work on AEM components. It also offers Sightly syntax highlighting and auto-completion.</li>
+</ul>
+</div>
+</div>
+<a name="par_title_15" style="visibility:hidden"></a><div class="title section"><a name="Code Samples"></a><a name="Code Samples"></a><h4>Code Samples</h4></div>
+<a name="par_text_116" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><ul style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">
+<li><a adhocenable="false" href="http://localhost:4502/editor.html/content/geometrixx-outdoors/en/activities/cajamara-biking.html" target="_blank">Sightly Page Components Example</a>&nbsp;<i>(running instance required on localhost:4502)</i><br>
+The Activities section of Geometrixx Outdoors is fully implemented using Sightly and server-side JavaScript for the logic. Enter <a adhocenable="false" href="http://dev.day.com/content/ddc/en/gems/aem-6-0-developer-mode.html" target="_blank">developer mode</a> and inspect the components on the page to see how they are built.</li>
+<li><a href="https://github.com/Adobe-Marketing-Cloud/aem-sightly-sample-todomvc">Sightly TodoMVC Example<br>
+ </a>A feature-complete implementation of the famous TodoMVC&nbsp;exercise.&nbsp;In just about 300 lines of code, this sample shows how to build web applications with Sightly, getting&nbsp;status persisted on the server using the Apache Sling REST framework.</li>
+</ul>
+</div>
+</div>
+<a name="par_text_106" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>And follow&nbsp;<a href="https://twitter.com/sightlyio">Sightly&nbsp;on Twitter</a>&nbsp;to keep posted about what's going on in the world of Sightly.</p>
+</div>
+</div>
+<a name="par_title_30" style="visibility:hidden"></a><div class="title section"><a name="Moving to Sightly" href="./"></a><a name="Moving to Sightly" href="./"></a><h2>Moving to Sightly</h2></div>
+<a name="par_text_93" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">It is recommended for new AEM projects to use Sightly as it offers multiple benefits compared to JSP. For existing projects though, a migration only makes sense if it is estimated to be less effort than maintaining the existing JSPs for the coming years.<br>
+</p>
+<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">But moving to Sightly is not necessarily an all-or-nothing choice, because components written in Sightly are compatible with components written in JSP or ESP. Meaning that existing projects can without a problem use Sightly for new components, while keeping JSP for existing components.</p>
+<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Even within the same component,&nbsp;<span style="line-height: 1.3em;">Sightly templates can be used alongside JSPs and ESPs. For example, a JSP can include a Sightly template like this,</span></p>
+<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px; margin-left: 40px;"><b><span class="monospaced">&lt;cq:include script="footer.html"/&gt;</span></b></p>
+<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">and a Sightly template can include a JSP like this,</p>
+<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px; margin-left: 40px;"><b><span class="monospaced">&lt;div data-sly-include="footer.jsp"&gt;&lt;/div&gt;</span></b></p>
+</div>
+</div>
+<a name="par_title_0" style="visibility:hidden"></a><div class="title section"><a name="Getting Started" href="./"></a><a name="Getting Started" href="./"></a><h2>Getting Started</h2></div>
+<a name="par_text_0" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Every Sightly template is a valid HTML5 document or fragment augmented with specific syntax that supports Sightly functionality without invalidating the well-formedness of the HTML. For example:</p>
+</div>
+</div>
+<a name="par_codelisting_sh" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+<link rel="stylesheet" href="/etc/clientlibs/docs/codelisting-sh.min.css" type="text/css">
+<script type="text/javascript" src="/etc/clientlibs/docs/codelisting-sh.min.js"></script>
+
+<div><div id="highlighter_774354" class="syntaxhighlighter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">class</code><code class="xml plain">=</code><code class="xml string">"sightly-example"</code><code class="xml plain">&gt;</code></div><div class="line number2 index1 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">header</code> <code class="xml color1">data-sly-include</code><code class="xml plain">=</code><code class="xml string">"header.html"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">header</code><code class="xml plain">&gt;</code></div><div class="line number3 index2 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">h1</code> <code class="xml color1">data-sly-test</code><code class="xml plain">=</code><code class="xml string">"${properties.title}"</code><code class="xml plain">&gt;</code></div><div class="line number4 index3 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">${properties.title}</code></div><div class="line number5 index4 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;/</code><code class="xml keyword">h1</code><code class="xml plain">&gt;</code></div><div class="line number6 index5 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">nav</code> <code class="xml color1">data-sly-use.navigation</code><code class="xml plain">=</code><code class="xml string">"Navigation"</code><code class="xml plain">&gt;</code></div><div class="line number7 index6 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">${navigation.breadcrumb}</code></div><div class="line number8 index7 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;/</code><code class="xml keyword">nav</code><code class="xml plain">&gt;</code></div><div class="line number9 index8 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">ul</code> <code class="xml color1">data-sly-list.child</code><code class="xml plain">=</code><code class="xml string">"${resource.listChildren}"</code><code class="xml plain">&gt;</code></div><div class="line number10 index9 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">li</code><code class="xml plain">&gt;${child.name}&lt;/</code><code class="xml keyword">li</code><code class="xml plain">&gt;</code></div><div class="line number11 index10 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;/</code><code class="xml keyword">ul</code><code class="xml plain">&gt;</code></div><div class="line number12 index11 alt1"><code class="xml plain">&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_1" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>As you can see the above snippet is a valid HTML5 fragment, but it includes two special things:</p>
+<ul>
+<li><p><b>Sightly Expression Language</b>: Sightly expressions are delimited by characters<b>&nbsp;</b><span class="monospaced"><b>${</b></span>&nbsp;and&nbsp;<span class="monospaced"><b>}</b></span>. At runtime, these expressions are evauated and their value is injected into the outgoing HTML stream. They can occur within the HTML text or within attribute values.</p>
+</li>
+<li><p><b>Sightly Data Attributes</b>: To define structural block elements within the template, Sightly employs the HTML <b><span class="monospaced">data</span></b> attribute, which is an HTML5 attribute syntax purposely intended for custom use by third-party applications. This offers the benefit of being able to attach behavior to existing HTML elements.&nbsp;All Sightly-specific attributes are prefixed with <span class="monospaced" style="font-size: 1em; line-height: 1.25em;"><b>data-sly-</b></span>.</p>
+</li>
+</ul>
+</div>
+</div>
+<a name="par_text_85" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Here is the same code with comments explaining the various parts:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_54" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_200724" class="syntaxhighlighter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div><div class="line number25 index24 alt2">25</div><div class="line number26 index25 alt1">26</div><div class="line number27 index26 alt2">27</div><div class="line number28 index27 alt1">28</div><div class="line number29 index28 alt2">29</div><div class="line number30 index29 alt1">30</div><div class="line number31 index30 alt2">31</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml comments">&lt;!--/*&nbsp; The outer div element passes through the Sightly engine unchanged */--&gt;</code></div><div class="line number2 index1 alt1"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">class</code><code class="xml plain">=</code><code class="xml string">"sightly-example"</code><code class="xml plain">&gt;</code></div><div class="line number3 index2 alt2"><code class="xml spaces">&nbsp;</code>&nbsp;</div><div class="line number4 index3 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml comments">&lt;!--/*&nbsp; data-sly-include: Includes and evaluates the 'header.html' file.</code></div><div class="line number5 index4 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml comments">The result will be inserted as inner HTML of the &lt;header&gt;. */--&gt;</code></div><div class="line number6 index5 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">header</code> <code class="xml color1">data-sly-include</code><code class="xml plain">=</code><code class="xml string">"header.html"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">header</code><code class="xml plain">&gt;</code></div><div class="line number7 index6 alt2"><code class="xml spaces">&nbsp;</code>&nbsp;</div><div class="line number8 index7 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml comments">&lt;!--/*&nbsp; data-sly-test: Checks if the 'title' property exists.</code></div><div class="line number9 index8 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml comments">If so, the &lt;h1&gt; element and its content is output,</code></div><div class="line number10 index9 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml comments">otherwise it is removed altogether. */--&gt;</code></div><div class="line number11 index10 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">h1</code> <code class="xml color1">data-sly-test</code><code class="xml plain">=</code><code class="xml string">"${properties.title}"</code><code class="xml plain">&gt;</code></div><div class="line number12 index11 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">${properties.title}</code></div><div class="line number13 index12 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;/</code><code class="xml keyword">h1</code><code class="xml plain">&gt;</code></div><div class="line number14 index13 alt1"><code class="xml spaces">&nbsp;</code>&nbsp;</div><div class="line number15 index14 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml comments">&lt;!--/*&nbsp; data-sly-use: Specifies a helper script (in this case a Java class)</code></div><div class="line number16 index15 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml comments">to be instanciated. The resulting object is assigned to the</code></div><div class="line number17 index16 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml comments">'navigation' identifier. */--&gt;</code></div><div class="line number18 index17 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">nav</code> <code class="xml color1">data-sly-use.navigation</code><code class="xml plain">=</code><code class="xml string">"Navigation"</code><code class="xml plain">&gt;</code></div><div class="line number19 index18 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml comments">&lt;!--/*&nbsp; The 'breadcrumb' property of the 'navigation' identifier</code></div><div class="line number20 index19 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml comments">defined by data-sly-use above is displayed. */--&gt;</code></div><div class="line number21 index20 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">${navigation.breadcrumb}</code></div><div class="line number22 index21 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;/</code><code class="xml keyword">nav</code><code class="xml plain">&gt;</code></div><div class="line number23 index22 alt2"><code class="xml spaces">&nbsp;</code>&nbsp;</div><div class="line number24 index23 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml comments">&lt;!--/*&nbsp; Repeats the content of the &lt;ul&gt; element for each member of the</code></div><div class="line number25 index24 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml comments">'resource.listChildren' collection. On each iteration, the current</code></div><div class="line number26 index25 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml comments">element is assigned to the 'child' identifier. */--&gt;</code></div><div class="line number27 index26 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">ul</code> <code class="xml color1">data-sly-list.child</code><code class="xml plain">=</code><code class="xml string">"${resource.listChildren}"</code><code class="xml plain">&gt;</code></div><div class="line number28 index27 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml comments">&lt;!--/*&nbsp; The 'name' property is displayed for each 'child' item. */--&gt;</code></div><div class="line number29 index28 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">li</code><code class="xml plain">&gt;${child.name}&lt;/</code><code class="xml keyword">li</code><code class="xml plain">&gt;</code></div><div class="line number30 index29 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;/</code><code class="xml keyword">ul</code><code class="xml plain">&gt;</code></div><div class="line number31 index30 alt2"><code class="xml plain">&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_title_2" style="visibility:hidden"></a><div class="title section"><a name="Comments" href="./"></a><a name="Comments" href="./"></a><h2>Comments</h2></div>
+<a name="par_text_8" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Sightly comments are HTML comments with additional syntax. They are delimited like this</p>
+<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">&nbsp; &nbsp; <span class="monospaced"><b>&lt;!--/* A Sightly Comment */--&gt;</b></span></p>
+<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Anything within a Sightly comment will be entirely ignored by the Sightly processor. However, the content of standard HTML comments, delimited like this</p>
+<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">&nbsp; &nbsp; <span class="monospaced"><b>&lt;!-- An HTML Comment&nbsp;--&gt;</b></span></p>
+<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">will be passed through the Sightly processor and all expressions within the comment will be evaluated. So, if</p>
+<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"><span class="monospaced"><span style="font-family: tahoma, arial, helvetica, sans-serif;">&nbsp; &nbsp;&nbsp;</span><b>foo === "Foo!"</b></span></p>
+<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">&nbsp; &nbsp;&nbsp;<b style="font-family: Courier;">bar === "Bar!"</b></p>
+<p>then this template</p>
+</div>
+</div>
+<a name="par_codelisting_sh_34" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_449100" class="syntaxhighlighter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml comments">&lt;!--/* The value of foo is: ${foo} */--&gt;</code></div><div class="line number2 index1 alt1">&nbsp;</div><div class="line number3 index2 alt2"><code class="xml comments">&lt;!-- The value of bar is: ${bar} --&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_22" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>will output this HTML:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_46" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_149630" class="syntaxhighlighter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml comments">&lt;!-- The value of bar is: Bar! --&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_title_1" style="visibility:hidden"></a><div class="title section"><a name="Expressions" href="./"></a><a name="Expressions" href="./"></a><h2>Expressions</h2></div>
+<a name="par_text_3" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Sightly expressions are used to access the data structures that provide the dynamic elements of the HTML output. A Sightly expression is delimited by <span class="monospaced"><b>${</b></span>&nbsp;and <b><span class="monospaced">}</span></b>. The expression syntax includes <b>literals</b>, <b>variables</b>, <b>operators</b> and <b>options</b>:</p>
+</div>
+</div>
+<a name="par_title_79" style="visibility:hidden"></a><div class="title section"><a name="Literals" href="./"></a><a name="Literals" href="./"></a><h3>Literals</h3></div>
+<a name="par_text_89" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Boolean:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_67" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_439636" class="syntaxhighlighter nogutter  shell"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="shell plain">${</code><code class="shell functions">true</code><code class="shell plain">} ${</code><code class="shell functions">false</code><code class="shell plain">}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_2" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Integers (including exponentiation). Floating point numbers are not supported:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_63" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_747661" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${42} ${42e2}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_86" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Strings:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_64" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_995762" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${'foo'} ${"bar"}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_87" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Single character escape &nbsp;sequences: <span class="monospaced"><b>\\ \' \" \t \n \r \f \b</b></span></p>
+</div>
+</div>
+<a name="par_codelisting_sh_65" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_156050" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${'it\'s great'}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_88" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Unicode escape sequences: <span class="monospaced"><b>\u</b></span> followed by 4 hexadecimal digits (e.g.: <span class="monospaced"><b>\u0022</b></span> for <span class="monospaced"><b>"</b></span>, <span class="monospaced"><b>\u0027</b></span> for <b><span class="monospaced">'</span></b>, <span class="monospaced"><b>\u003c</b></span> for <b><span class="monospaced">&lt;</span></b>, and <span class="monospaced"><b>\u003e</b></span> for <b><span class="monospaced">&gt;</span></b>)</p>
+</div>
+</div>
+<a name="par_codelisting_sh_66" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_692913" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${'it\u0027s great'}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_title_80" style="visibility:hidden"></a><div class="title section"><a name="Variables" href="./"></a><a name="Variables" href="./"></a><h3>Variables</h3></div>
+<a name="par_text_91" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Simple member access:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_68" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_946411" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${properties.text}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_92" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Colons are permitted in identifiers (useful for accessing JCR properties):</p>
+</div>
+</div>
+<a name="par_codelisting_sh_69" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_595480" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${properties.jcr:title}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_94" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Accessing members with special characters (in this case, space):</p>
+</div>
+</div>
+<a name="par_codelisting_sh_70" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_177535" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${properties['my property']}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_96" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Accessing members dynamically:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_71" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_669173" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${properties[myVar]}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_title_3" style="visibility:hidden"></a><div class="title section"><a name="Context Objects" href="./"></a><a name="Context Objects" href="./"></a><h3>Context Objects</h3></div>
+<a name="par_text_5" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>A default set of objects is provided within the execution context of every Sightly template. These objects are in addtion to any that may be introduced through the Use-API.</p>
+</div>
+</div>
+<a name="par_title_10" style="visibility:hidden"></a><div class="title section"><a name="Enumerable Objects"></a><a name="Enumerable Objects"></a><h4>Enumerable Objects</h4></div>
+<a name="par_text_97" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>These objects provide convenient access to commonly used information.</p>
+<p>They can be iterated-through using <span class="monospaced"><b>data-sly-list</b></span>.</p>
+</div>
+</div>
+<a name="par_table_3" style="visibility:hidden"></a><div class="parbase table section"><table width="100%" border="1" cellpadding="1" cellspacing="0">
+<tbody><tr><th><span style="font-size: 12px; font-weight: normal;"><b>Variable Name</b></span></th>
+<th><span style="font-size: 12px; font-weight: normal;"><b>Description</b></span></th>
+</tr><tr><td><span class="monospaced">properties</span></td>
+<td>List of properties of the current <span class="monospaced">Resource</span>.<br>
+Backed by&nbsp;<span class="monospaced">org.apache.sling.api.resource.ValueMap</span>.</td>
+</tr><tr><td><span class="monospaced">pageProperties</span></td>
+<td>List of page properties of the current <span class="monospaced">Page</span>.<br>
+Backed by&nbsp;<span class="monospaced">org.apache.sling.api.resource.ValueMap</span>.</td>
+</tr><tr><td><span class="monospaced">inheritedPageProperties</span></td>
+<td>List of inherited page properties of the current <span class="monospaced">Page</span>.<br>
+Backed by&nbsp;<span class="monospaced">org.apache.sling.api.resource.ValueMap</span>.</td>
+</tr></tbody></table>
+</div>
+<a name="par_title_13" style="visibility:hidden"></a><div class="title section"><a name="Java-backed Objects"></a><a name="Java-backed Objects"></a><h4>Java-backed Objects</h4></div>
+<a name="par_text_98" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>These objects provide the standard AEM execution context (as global.jsp does for JSPs, for example). Each object is backed by the corresponding Java object.</p>
+</div>
+</div>
+<a name="par_table" style="visibility:hidden"></a><div class="parbase table section"><table width="100%" border="1" cellpadding="1" cellspacing="0">
+<tbody><tr><th><span style="font-weight: normal;"><b>Variable Name</b></span></th>
+<th><span style="font-weight: normal;"><b>Description</b></span></th>
+</tr><tr><td><span class="monospaced">component</span></td>
+<td><span class="monospaced">com.day.cq.wcm.api.components.Component</span></td>
+</tr><tr><td><span class="monospaced">componentContext</span></td>
+<td><span class="monospaced">com.day.cq.wcm.api.components.ComponentContext</span></td>
+</tr><tr><td><span class="monospaced">currentDesign</span></td>
+<td><span class="monospaced">com.day.cq.wcm.api.designer.Design</span></td>
+</tr><tr><td><span class="monospaced">currentNode</span></td>
+<td><span class="monospaced">javax.jcr.Node</span></td>
+</tr><tr><td><span class="monospaced">currentPage</span></td>
+<td><span class="monospaced">com.day.cq.wcm.api.Page</span></td>
+</tr><tr><td><span class="monospaced">currentSession</span></td>
+<td><span class="monospaced">javax.servlet.http.HttpSession</span></td>
+</tr><tr><td><span class="monospaced">currentStyle</span></td>
+<td><span class="monospaced">com.day.cq.wcm.api.designer.Style</span></td>
+</tr><tr><td><span class="monospaced">designer</span></td>
+<td><span class="monospaced">com.day.cq.wcm.api.designer.Designer</span></td>
+</tr><tr><td><span class="monospaced">editContext</span></td>
+<td><span class="monospaced">com.day.cq.wcm.api.components.EditContext</span></td>
+</tr><tr><td><span class="monospaced">log</span></td>
+<td><span class="monospaced">org.slf4j.Logger</span></td>
+</tr><tr><td><span class="monospaced">out</span></td>
+<td><span class="monospaced">java.io.PrintWriter</span></td>
+</tr><tr><td><span class="monospaced">pageManager</span></td>
+<td><span class="monospaced">com.day.cq.wcm.api.PageManager</span></td>
+</tr><tr><td><span class="monospaced">reader</span></td>
+<td><span class="monospaced">java.io.BufferedReader</span></td>
+</tr><tr><td><span class="monospaced">request</span></td>
+<td><span class="monospaced">org.apache.sling.api.SlingHttpServletRequest</span></td>
+</tr><tr><td><span class="monospaced">resource</span></td>
+<td><span class="monospaced">org.apache.sling.api.resource.Resource</span></td>
+</tr><tr><td><span class="monospaced">resourceDesign</span></td>
+<td><span class="monospaced">com.day.cq.wcm.api.designer.Design</span></td>
+</tr><tr><td><span class="monospaced">resourcePage</span></td>
+<td><span class="monospaced">com.day.cq.wcm.api.Page</span></td>
+</tr><tr><td><span class="monospaced">response</span></td>
+<td><span class="monospaced">org.apache.sling.api.SlingHttpServletResponse</span></td>
+</tr><tr><td><span class="monospaced">sling</span></td>
+<td><span class="monospaced">org.apache.sling.api.scripting.SlingScriptHelper</span></td>
+</tr><tr><td><span class="monospaced">slyWcmHelper</span></td>
+<td><span class="monospaced">com.adobe.cq.sightly.WCMScriptHelper</span></td>
+</tr><tr><td><span class="monospaced">wcmmode</span></td>
+<td><span class="monospaced">com.day.cq.wcm.api.WCMMode&nbsp;</span>(in Sightly, evaluates to a string, either <span class="monospaced">"EDIT"</span> or <span class="monospaced">"DESIGN"</span>)</td>
+</tr><tr><td><span class="monospaced">xssAPI</span></td>
+<td><span class="monospaced">com.adobe.granite.xss.impl.XSSAPImpl</span></td>
+</tr></tbody></table>
+</div>
+<a name="par_text_6" style="visibility:hidden"></a><div class="text parbase section">
+</div>
+<a name="par_title_81" style="visibility:hidden"></a><div class="title section"><a name="Operators" href="./"></a><a name="Operators" href="./"></a><h3>Operators</h3></div>
+<a name="par_text_103" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Logical NOT:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_78" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_892923" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${!var}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_99" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Logical AND:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_72" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_920794" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${varOne &amp;&amp; varTwo}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_100" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Logical OR (can be used to provide string defaults):</p>
+</div>
+</div>
+<a name="par_codelisting_sh_73" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_384805" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${varOne || varTwo}</code></div><div class="line number2 index1 alt1"><code class="text plain">${properties.text || properties.default}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_101" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Conditional:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_74" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_199595" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${varChoice ? varOne : varTwo}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_102" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Comparison (only supports integers):</p>
+</div>
+</div>
+<a name="par_codelisting_sh_75" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_275015" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${varOne &lt; varTwo}</code></div><div class="line number2 index1 alt1"><code class="text plain">${varOne &gt; varTwo}</code></div><div class="line number3 index2 alt2"><code class="text plain">${varOne &lt;= varTwo}</code></div><div class="line number4 index3 alt1"><code class="text plain">${varOne &gt;= varTwo}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_104" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Equality and inequality (only supports two variables of identical type):</p>
+</div>
+</div>
+<a name="par_codelisting_sh_76" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_377123" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${varOne == varTwo}</code></div><div class="line number2 index1 alt1"><code class="text plain">${varOne != varTwo}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_105" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Grouping parentheses:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_77" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_530294" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${varOne &amp;&amp; (varTwo || varThree)}&nbsp;&nbsp; </code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_title_82" style="visibility:hidden"></a><div class="title section"><a name="Options" href="./"></a><a name="Options" href="./"></a><h3>Options</h3></div>
+<a name="par_text_95" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Expression options can act on the expression and modify it, or serve as parameters when used in conjunction with block statements.</p>
+</div>
+</div>
+<a name="par_text_108" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Everything after the '<span class="monospaced">@</span>' is an option:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_81" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_760570" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${myVar @ optOne}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_109" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Options can have a value, which may be a variable or a literal:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_82" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_433075" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${myVar @ optOne=bar}</code></div><div class="line number2 index1 alt1"><code class="text plain">${myVar @ optOne='bar'}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_110" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Multiple options are separated by commas:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_83" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_319349" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${myVar @ optOne, optTwo=bar}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_111" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Parametric expressions containing only options are also possible:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_84" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_70248" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">${@ optOne, optTwo=bar}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_title_11" style="visibility:hidden"></a><div class="title section"><a name="Block Statements" href="./"></a><a name="Block Statements" href="./"></a><h2>Block Statements</h2></div>
+<a name="par_text_15" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Sightly block statements are custom <span class="monospaced"><b>data</b></span> attributes added directly to existing HTML. This allows easy and unobtrusive annotation of a prototype static HTML page, converting it to a functioning dynamic template without breaking the validity of the HTML code.</p>
+</div>
+</div>
+<a name="par_title_12" style="visibility:hidden"></a><div class="title section"><a name="use" href="./"></a><a name="use" href="./"></a><h3>use</h3></div>
+<a name="par_text_23" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p><b><span class="monospaced">data-sly-use</span></b>: Initializes a helper object (defined in JavaScript or Java) and exposes it through a variable.</p>
+</div>
+</div>
+<a name="par_text_9" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Initialize a JavaScript object, where the source file is located in the same directory as the template. Note that the filename must be used:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_0" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_300775" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">data-sly-use.nav</code><code class="xml plain">=</code><code class="xml string">"navigation.js"</code><code class="xml plain">&gt;${nav.foo}&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_10" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Initialize a Java class, where the source file is located in the same directory as the template. Note that the classname must be used, not the file name:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_1" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_461748" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">data-sly-use.nav</code><code class="xml plain">=</code><code class="xml string">"Navigation"</code><code class="xml plain">&gt;${nav.foo}&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_11" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Initialize a Java class, where that class is installed as part of an OSGi bundle. Note that its fully-qualified class name must be used:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_2" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_465747" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">data-sly-use.nav</code><code class="xml plain">=</code><code class="xml string">"org.example.Navigation"</code><code class="xml plain">&gt;${nav.foo}&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_14" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Parameters can be passed to the initialization using <i>options</i>.&nbsp;Generally this feature should only be used by Sightly code that is itself within a <span class="monospaced"><b>data-sly-template</b></span> block:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_3" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_236079" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">data-sly-use.nav</code><code class="xml plain">=</code><code class="xml string">"${'navigation.js' @parentPage=currentPage}"</code><code class="xml plain">&gt;${nav.foo}&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_16" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Initialize another Sightly template that can then be called using&nbsp;<b><span class="monospaced">data-sly-call</span></b>:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_4" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_830261" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">data-sly-use.nav</code><code class="xml plain">=</code><code class="xml string">"navTemplate.html"</code> <code class="xml color1">data-sly-call</code><code class="xml plain">=</code><code class="xml string">"${nav.foo}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_note" style="visibility:hidden"></a><div class="parbase section note"><p class="boxtitle note">Note</p>
+          <div class="icon-container note">
+          <div class="icon"></div>
+          <div class="icon-content"><p class="text"></p><p>For more information on the Use-API, see:</p>
+<ul>
+<li><a href="/docs/en/aem/6-0/develop/sightly/use-api-in-java.html">Java Use-API</a></li>
+<li><a href="/docs/en/aem/6-0/develop/sightly/use-api-in-javascript.html">JavaScript Use-API</a></li>
+</ul>
+<p></p></div></div>
+</div>
+<a name="par_title_25" style="visibility:hidden"></a><div class="title section"><a name="unwrap" href="./"></a><a name="unwrap" href="./"></a><h3>unwrap</h3></div>
+<a name="par_text_90" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p><b><span class="monospaced">data-sly-unwrap</span></b>: Removes the host element from the generated markup while retaining its content. This allows the exclusion of elements that are required as part of Sightly presentation logic but are not desired in the actual output.</p>
+<p>However, this statement should be used sparingly. In general it is better to keep the Sightly markup as close as possible to the intended output markup. In other words, when adding Sightly block statements, try as much as possible to simply annotate the existing HTML, without introducing new elements.</p>
+</div>
+</div>
+<a name="par_text_20" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>For example, this</p>
+</div>
+</div>
+<a name="par_codelisting_sh_5" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_57082" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">p</code> <code class="xml color1">data-sly-use.nav</code><code class="xml plain">=</code><code class="xml string">"navigation.js"</code><code class="xml plain">&gt;Hello World&lt;/</code><code class="xml keyword">p</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_17" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>will produce</p>
+</div>
+</div>
+<a name="par_codelisting_sh_6" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_997225" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">p</code><code class="xml plain">&gt;Hello World&lt;/</code><code class="xml keyword">p</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_18" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Whereas this,</p>
+</div>
+</div>
+<a name="par_codelisting_sh_8" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_429876" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">p</code> <code class="xml color1">data-sly-use.nav</code><code class="xml plain">=</code><code class="xml string">"navigation.js"</code> <code class="xml plain">data-sly-unwrap&gt;Hello World&lt;/</code><code class="xml keyword">p</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_19" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>will produce</p>
+</div>
+</div>
+<a name="par_codelisting_sh_7" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_902551" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">Hello World</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_7" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>It is also possible to conditionally unwrap an element:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_9" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_256037" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">class</code><code class="xml plain">=</code><code class="xml string">"popup"</code> <code class="xml color1">data-sly-unwrap</code><code class="xml plain">=</code><code class="xml string">"${isPopup}"</code><code class="xml plain">&gt;content&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_title_16" style="visibility:hidden"></a><div class="title section"><a name="text" href="./"></a><a name="text" href="./"></a><h3>text</h3></div>
+<a name="par_text_60" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p><b><span class="monospaced">data-sly-text</span></b>: Replaces the content of its host element with the specified text.</p>
+</div>
+</div>
+<a name="par_text_21" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>For example, this</p>
+</div>
+</div>
+<a name="par_codelisting_sh_10" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_779993" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">p</code><code class="xml plain">&gt;${properties.jcr:description}&lt;/</code><code class="xml keyword">p</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_24" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>is equivalent to</p>
+</div>
+</div>
+<a name="par_codelisting_sh_11" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_589502" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">p</code> <code class="xml color1">data-sly-text</code><code class="xml plain">=</code><code class="xml string">"${properties.jcr:description}"</code><code class="xml plain">&gt;Lorem ipsum&lt;/</code><code class="xml keyword">p</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_25" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Both will display the value of <b><span class="monospaced">jcr:description</span></b> as paragraph text. The advantage of the second method is that is allows the unobtrusive annotation of HTML while keeping the static placeholder content from the original designer.</p>
+</div>
+</div>
+<a name="par_title_17" style="visibility:hidden"></a><div class="title section"><a name="attribute" href="./"></a><a name="attribute" href="./"></a><h3>attribute</h3></div>
+<a name="par_text_4" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p><b>data-sly-attribute</b>: Adds attributes to the host element.</p>
+</div>
+</div>
+<a name="par_text_26" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>For example, this</p>
+</div>
+</div>
+<a name="par_codelisting_sh_12" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_24097" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">title</code><code class="xml plain">=</code><code class="xml string">"${properties.jcr:title}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_27" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>is equivalent to</p>
+</div>
+</div>
+<a name="par_codelisting_sh_13" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_563861" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">title</code><code class="xml plain">=</code><code class="xml string">"Lorem Ipsum"</code> <code class="xml color1">data-sly-attribute.title</code><code class="xml plain">=</code><code class="xml string">"${properties.jcr:title}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_28" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Both will set the <span class="monospaced"><b>title</b></span> attribute to the value of <b><span class="monospaced">jcr:title</span></b>. The advantage of the second method is that is allows the unobtrusive annotation of HTML while keeping the static placeholder content from the original designer.</p>
+</div>
+</div>
+<a name="par_text_29" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Attributes are resolved left to right, with the rightmost instance of an attribute (either literal or defined via <b><span class="monospaced">data-sly-attribute</span></b>) taking precedence over any instances of the same attribute (defined either literally or via <b><span class="monospaced">data-sly-attribute</span></b>) defined to its left.</p>
+</div>
+</div>
+<a name="par_text_30" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Note that an attribute (either <b><span class="monospaced">literal</span></b> or set via <b><span class="monospaced">data-sly-attribute</span></b>) whose value <i>evaluates</i> to the empty string will be removed in the final markup. The one exception to this rule is that a <i>literal</i> attribute set to a <i>literal</i> empty string will be preserved. For example,</p>
+</div>
+</div>
+<a name="par_codelisting_sh_15" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_256266" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">class</code><code class="xml plain">=</code><code class="xml string">"${''}"</code> <code class="xml color1">data-sly-attribute.id</code><code class="xml plain">=</code><code class="xml string">"${''}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_31" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>produces,</p>
+</div>
+</div>
+<a name="par_codelisting_sh_16" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_845433" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_33" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>but,</p>
+</div>
+</div>
+<a name="par_codelisting_sh_17" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_584978" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">class</code><code class="xml plain">=</code><code class="xml string">""</code> <code class="xml color1">data-sly-attribute.id</code><code class="xml plain">=</code><code class="xml string">""</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_32" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>produces,</p>
+</div>
+</div>
+<a name="par_codelisting_sh_18" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_219729" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">class</code><code class="xml plain">=</code><code class="xml string">""</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_34" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>To prevent the stripping of empty attributes, set their value to an array containing an empty string. For example,</p>
+</div>
+</div>
+<a name="par_codelisting_sh_19" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_810273" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">class</code><code class="xml plain">=</code><code class="xml string">"${['']}"</code> <code class="xml color1">data-sly-attribute.id</code><code class="xml plain">=</code><code class="xml string">"${['']}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_35" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>produces,</p>
+</div>
+</div>
+<a name="par_codelisting_sh_20" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_874544" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">class</code><code class="xml plain">=</code><code class="xml string">""</code> <code class="xml color1">id</code><code class="xml plain">=</code><code class="xml string">""</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_36" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>To set multiple attributes, pass a map object hold key-value pairs corresponing to the attributes and their values. For example, assuming,</p>
+</div>
+</div>
+<a name="par_codelisting_sh_14" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_120588" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">attrMap = {</code></div><div class="line number2 index1 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">title: "myTitle",</code></div><div class="line number3 index2 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">class: "myClass",</code></div><div class="line number4 index3 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">id: "myId"</code></div><div class="line number5 index4 alt2"><code class="xml plain">}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_37" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Then,</p>
+</div>
+</div>
+<a name="par_codelisting_sh_21" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_512171" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">data-sly-attribute</code><code class="xml plain">=</code><code class="xml string">"${attrMap}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_39" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>produces,</p>
+</div>
+</div>
+<a name="par_codelisting_sh_22" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_835806" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">title</code><code class="xml plain">=</code><code class="xml string">"myTitle"</code> <code class="xml color1">class</code><code class="xml plain">=</code><code class="xml string">"myClass"</code> <code class="xml color1">id</code><code class="xml plain">=</code><code class="xml string">"myId"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_title_18" style="visibility:hidden"></a><div class="title section"><a name="element" href="./"></a><a name="element" href="./"></a><h3>element</h3></div>
+<a name="par_text_66" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p><b><span class="monospaced">data-sly-element</span></b>: Replaces the element name of the host element.</p>
+<p>For example,</p>
+</div>
+</div>
+<a name="par_codelisting_sh_23" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_845261" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">h1</code> <code class="xml color1">data-sly-element</code><code class="xml plain">=</code><code class="xml string">"${titleLevel}"</code><code class="xml plain">&gt;text&lt;/</code><code class="xml keyword">h1</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_40" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Replaces the <b><span class="monospaced">h1</span></b>&nbsp;with the value of <b><span class="monospaced">titleLevel</span></b>.</p>
+</div>
+</div>
+<a name="par_text_41" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>For security reasons, <span class="monospaced"><b>data-sly-element</b></span> accepts only the following element names:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_24" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_586078" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">a abbr address article aside b bdi bdo blockquote br caption cite code col colgroup</code></div><div class="line number2 index1 alt1"><code class="xml plain">data dd del dfn div dl dt em figcaption figure footer h1 h2 h3 h4 h5 h6 header i ins</code></div><div class="line number3 index2 alt2"><code class="xml plain">kbd li main mark nav ol p pre q rp rt ruby s samp section small span strong sub </code></div><div class="line number4 index3 alt1"><code class="xml plain">sup table tbody td tfoot th thead time tr u var wbr</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_42" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>To set other elements, XSS security must be turned off (<span class="monospaced"><b>@context='unsafe'</b></span>).</p>
+</div>
+</div>
+<a name="par_title_19" style="visibility:hidden"></a><div class="title section"><a name="test" href="./"></a><a name="test" href="./"></a><h3>test</h3></div>
+<a name="par_text_43" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p><b><span class="monospaced">data-sly-test</span>:</b>&nbsp;Conditionally removes the host element and it's content. A value of <span class="monospaced"><b>false</b></span> removes the element; a value of <span class="monospaced"><b>true</b></span> retains the element.</p>
+</div>
+</div>
+<a name="par_text_44" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>For example, the <span class="monospaced"><b>p</b></span> element and its content will only be rendered if <span class="monospaced"><b>isShown</b></span> is <span class="monospaced"><b>true</b></span>:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_25" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_123222" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">p</code> <code class="xml color1">data-sly-test</code><code class="xml plain">=</code><code class="xml string">"${isShown}"</code><code class="xml plain">&gt;text&lt;/</code><code class="xml keyword">p</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_45" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>The result of a test can be assigned to a variable that can be used later. This is usually used to construct "if else" logic, since there is no explicit else statetment:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_26" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_306718" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">p</code> <code class="xml color1">data-sly-test.abc</code><code class="xml plain">=</code><code class="xml string">"${a || b || c}"</code><code class="xml plain">&gt;is true&lt;/</code><code class="xml keyword">p</code><code class="xml plain">&gt;</code></div><div class="line number2 index1 alt1"><code class="xml plain">&lt;</code><code class="xml keyword">p</code> <code class="xml color1">data-sly-test</code><code class="xml plain">=</code><code class="xml string">"${!abc}"</code><code class="xml plain">&gt;or not&lt;/</code><code class="xml keyword">p</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_46" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>The variable, once set, has global scope within the Sightly file.</p>
+</div>
+</div>
+<a name="par_title_20" style="visibility:hidden"></a><div class="title section"><a name="list" href="./"></a><a name="list" href="./"></a><h3>list</h3></div>
+<a name="par_text_72" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p><b><span class="monospaced">data-sly-list</span></b>: Repeats the content of the host element for each enumerable property in the provided object.</p>
+</div>
+</div>
+<a name="par_text_51" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Here is a simple loop:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_27" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_744036" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">dl</code> <code class="xml color1">data-sly-list</code><code class="xml plain">=</code><code class="xml string">"${currentPage.listChildren}"</code><code class="xml plain">&gt;</code></div><div class="line number2 index1 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">dt</code><code class="xml plain">&gt;index: ${itemList.index}&lt;/</code><code class="xml keyword">dt</code><code class="xml plain">&gt;</code></div><div class="line number3 index2 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">dd</code><code class="xml plain">&gt;value: ${item.title}&lt;/</code><code class="xml keyword">dd</code><code class="xml plain">&gt;</code></div><div class="line number4 index3 alt1"><code class="xml plain">&lt;/</code><code class="xml keyword">dl</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_47" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>The following default variables are available within the scope of the list:</p>
+<p><span class="monospaced"><b>item</b></span>: The current item in the iteration.</p>
+<p><b><span class="monospaced">itemList</span></b>: Object holding the following properties:</p>
+<p style="margin-left: 40px;"><b><span class="monospaced">index</span></b>: zero-based counter (<span class="monospaced">0..length-1</span>).</p>
+<p style="margin-left: 40px;"><b><span class="monospaced">count</span></b>: one-based counter (<span class="monospaced">1..length</span>).</p>
+<p style="margin-left: 40px;"><span class="monospaced"><b>first</b></span>: <span class="monospaced">true</span> if the current item is the first item.</p>
+<p style="margin-left: 40px;"><b><span class="monospaced">middle</span></b>: <span class="monospaced">true</span> if the current item is neither the first nor the last item.</p>
+<p style="margin-left: 40px;"><b><span class="monospaced">last</span></b>: <span class="monospaced">true</span> if the current item is the last item.</p>
+<p style="margin-left: 40px;"><b><span class="monospaced">odd</span></b>: <span class="monospaced">true</span> if <span class="monospaced">index</span> is odd.</p>
+<p style="margin-left: 40px;"><b><span class="monospaced">even</span></b>: <span class="monospaced">true</span> if <span class="monospaced">index</span> is even.</p>
+</div>
+</div>
+<a name="par_text_52" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Defining an identifier on the&nbsp;<span class="monospaced"><b>data-sly-list</b></span>&nbsp;statement allows you to rename the&nbsp;<b><span class="monospaced">itemList</span></b>&nbsp;and&nbsp;<span class="monospaced"><b>item</b></span>&nbsp;variables. <b><span class="monospaced">item</span></b> will become <b><i><span class="monospaced">&lt;variable&gt;</span></i></b> and <b><span class="monospaced">itemList</span></b> will become <b><span class="monospaced"><i>&lt;variable&gt;</i>List</span></b>.</p>
+</div>
+</div>
+<a name="par_codelisting_sh_31" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_853694" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">dl</code> <code class="xml color1">data-sly-list.child</code><code class="xml plain">=</code><code class="xml string">"${currentPage.listChildren}"</code><code class="xml plain">&gt;</code></div><div class="line number2 index1 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">dt</code><code class="xml plain">&gt;index: ${childList.index}&lt;/</code><code class="xml keyword">dt</code><code class="xml plain">&gt;</code></div><div class="line number3 index2 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">dd</code><code class="xml plain">&gt;value: ${child.title}&lt;/</code><code class="xml keyword">dd</code><code class="xml plain">&gt;</code></div><div class="line number4 index3 alt1"><code class="xml plain">&lt;/</code><code class="xml keyword">dl</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_53" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>You can also access properties dynamically:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_32" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_453804" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">dl</code> <code class="xml color1">data-sly-list.child</code><code class="xml plain">=</code><code class="xml string">"${myObj}"</code><code class="xml plain">&gt;</code></div><div class="line number2 index1 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">dt</code><code class="xml plain">&gt;key: ${child}&lt;/</code><code class="xml keyword">dt</code><code class="xml plain">&gt;</code></div><div class="line number3 index2 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">dd</code><code class="xml plain">&gt;value: ${myObj[child]}&lt;/</code><code class="xml keyword">dd</code><code class="xml plain">&gt;</code></div><div class="line number4 index3 alt1"><code class="xml plain">&lt;/</code><code class="xml keyword">dl</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_title_22" style="visibility:hidden"></a><div class="title section"><a name="resource" href="./"></a><a name="resource" href="./"></a><h3>resource</h3></div>
+<a name="par_text_38" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p><b><span class="monospaced">data-sly-resource</span></b>: Includes the result of rendering the indicated resource through the sling resolution and rendering process.</p>
+</div>
+</div>
+<a name="par_text_54" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>A simple resource include:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_28" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_383252" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">article</code> <code class="xml color1">data-sly-resource</code><code class="xml plain">=</code><code class="xml string">"path/to/resource"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">article</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_48" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Options allow a number of addtional variants:</p>
+<p>Manipulating the path of the resource:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_33" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_174854" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">article</code> <code class="xml color1">data-sly-resource</code><code class="xml plain">=</code><code class="xml string">"${ @ path='path/to/resource'}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">article</code><code class="xml plain">&gt;</code></div><div class="line number2 index1 alt1"><code class="xml plain">&lt;</code><code class="xml keyword">article</code> <code class="xml color1">data-sly-resource</code><code class="xml plain">=</code><code class="xml string">"${'resource' @ prependPath='my/path'}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">article</code><code class="xml plain">&gt;</code></div><div class="line number3 index2 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">article</code> <code class="xml color1">data-sly-resource</code><code class="xml plain">=</code><code class="xml string">"${'my/path' @ appendPath='resource'}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">article</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_55" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Add (or replace) a selector:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_35" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_827669" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">article</code> <code class="xml color1">data-sly-resource</code><code class="xml plain">=</code><code class="xml string">"${'path/to/resource' @ selectors='selector'}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">article</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_59" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Add, replace or remove multiple selectors:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_39" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_762802" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">article</code> <code class="xml color1">data-sly-resource</code><code class="xml plain">=</code><code class="xml string">"${'path/to/resource' @ selectors=['s1', 's2']}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">article</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_61" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Add a selector to the existing ones:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_40" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_474754" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">article</code> <code class="xml color1">data-sly-resource</code><code class="xml plain">=</code><code class="xml string">"${'path/to/resource' @ addSelectors='selector'}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">article</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_62" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Remove some selectors from the existing ones:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_41" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_431477" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">article</code> <code class="xml color1">data-sly-resource</code><code class="xml plain">=</code><code class="xml string">"${'path/to/resource' @ removeSelectors='selector1'}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">article</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_63" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Remove all selectors:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_42" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_412192" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">article</code> <code class="xml color1">data-sly-resource</code><code class="xml plain">=</code><code class="xml string">"${'path/to/resource' @ removeSelectors}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">article</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_56" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Overrides the resource type of the resource:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_36" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_738378" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">article</code> <code class="xml color1">data-sly-resource</code><code class="xml plain">=</code><code class="xml string">"${'path/to/resource' @ resourceType='my/resource/type'}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">article</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_57" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Changes the WCM mode:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_37" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_223288" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">article</code> <code class="xml color1">data-sly-resource</code><code class="xml plain">=</code><code class="xml string">"${'path/to/resource' @ wcmmode='disabled'}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">article</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_58" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>By default, the AEM decoration tags are disabled, the decorationTagName option allows to bring them back, and the cssClassName to add classes to that element.</p>
+</div>
+</div>
+<a name="par_codelisting_sh_38" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_756395" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">article</code> <code class="xml plain">data-sly-resource="${'path/to/resource' @ </code><code class="xml color1">decorationTagName</code><code class="xml plain">=</code><code class="xml string">'span'</code><code class="xml plain">,</code></div><div class="line number2 index1 alt1"><code class="xml color1">cssClassName</code><code class="xml plain">=</code><code class="xml string">'className'</code><code class="xml plain">}"&gt;&lt;/</code><code class="xml keyword">article</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_title_21" style="visibility:hidden"></a><div class="title section"><a name="include" href="./"></a><a name="include" href="./"></a><h3>include</h3></div>
+<a name="par_text_75" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p><b><span class="monospaced">data-sly-include</span></b>: Replaces the host element with the markup generated by the indicated HTML template file (Sightly, JSP, ESP etc.) when it is procesed by its corresponding template engine. The rendering context of the <i>included file</i> will not include the current Sightly context (that of the <i>including file</i>); Consequently, for inclusion of Sightly files, the current <b><span class="monospaced">data-sly-use</span></b> would have to be repeated in the included file (In such a case it is usually better to use <b><span class="monospaced">data-sly-template</span></b> and <span class="monospaced"><b>data-sly-call</b></span>)</p>
+</div>
+</div>
+<a name="par_text_49" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>A simple include:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_29" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_65022" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">section</code> <code class="xml color1">data-sly-include</code><code class="xml plain">=</code><code class="xml string">"path/to/template.html"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">section</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_64" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>JSPs can be included the same way:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_43" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_812460" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">&lt;section data-sly-include="path/to/template.jsp"&gt;&lt;/section&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_65" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Options let you manipulate the path of the file:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_44" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_72840" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">section</code> <code class="xml color1">data-sly-include</code><code class="xml plain">=</code><code class="xml string">"${ @ path='path/to/template.html'}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">section</code><code class="xml plain">&gt;</code></div><div class="line number2 index1 alt1"><code class="xml plain">&lt;</code><code class="xml keyword">section</code> <code class="xml color1">data-sly-include</code><code class="xml plain">=</code><code class="xml string">"${'template.html' @ prependPath='my/path'}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">section</code><code class="xml plain">&gt;</code></div><div class="line number3 index2 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">section</code> <code class="xml color1">data-sly-include</code><code class="xml plain">=</code><code class="xml string">"${'my/path' @ appendPath='template.html'}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">section</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_67" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>You can also change the WCM mode:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_45" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_220976" class="syntaxhighlighter nogutter  text"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="text plain">&lt;section data-sly-include="${'template.html' @ wcmmode='disabled'}"&gt;&lt;/section&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_title_23" style="visibility:hidden"></a><div class="title section"><a name="template &amp; call" href="./"></a><a name="template &amp; call" href="./"></a><h3>template &amp; call</h3></div>
+<a name="par_text_78" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p><span class="monospaced"><b>data-sly-template</b></span>:&nbsp;Defines a template. The host element and its content are not output by Sightly</p>
+<p><span class="monospaced"><b>data-sly-call</b></span>: Calls a template defined with data-sly-template. The content of the called template (optionally parameterized)&nbsp;replaces the host element of the call.</p>
+</div>
+</div>
+<a name="par_text_68" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Define a static template and then call it:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_30" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_822638" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">template</code> <code class="xml plain">data-sly-template.one&gt;blah&lt;/</code><code class="xml keyword">template</code><code class="xml plain">&gt;</code></div><div class="line number2 index1 alt1"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">data-sly-call</code><code class="xml plain">=</code><code class="xml string">"${one}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_50" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Define a dynamic template and then call it with parameters:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_48" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_128007" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">template</code> <code class="xml color1">data-sly-template.two</code><code class="xml plain">=</code><code class="xml string">"${ @ title}"</code><code class="xml plain">&gt;&lt;</code><code class="xml keyword">h1</code><code class="xml plain">&gt;${title}&lt;/</code><code class="xml keyword">h1</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">template</code><code class="xml plain">&gt;</code></div><div class="line number2 index1 alt1"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">data-sly-call</code><code class="xml plain">=</code><code class="xml string">"${two @ title=properties.jcr:title}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_69" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Templates located in a different file, can be initialised with <span class="monospaced"><b>data-sly-use</b></span>. Note that in this case <span class="monospaced"><b>data-sly-use</b></span> and <span class="monospaced"><b>data-sly-call</b></span> could also be placed on the same element:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_49" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_445277" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">data-sly-use.lib</code><code class="xml plain">=</code><code class="xml string">"templateLib.html"</code><code class="xml plain">&gt;</code></div><div class="line number2 index1 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">data-sly-call</code><code class="xml plain">=</code><code class="xml string">"${lib.one}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div><div class="line number3 index2 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">data-sly-call</code><code class="xml plain">=</code><code class="xml string">"${lib.two @ title=properties.jcr:title}"</code><code class="xml plain">&gt;&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div><div class="line number4 index3 alt1"><code class="xml plain">&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_70" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Template recursion is supported:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_50" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_588037" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">template</code> <code class="xml color1">data-sly-template.nav</code><code class="xml plain">=</code><code class="xml string">"${ @ page}"</code><code class="xml plain">&gt;</code></div><div class="line number2 index1 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">ul</code> <code class="xml color1">data-sly-list</code><code class="xml plain">=</code><code class="xml string">"${page.listChildren}"</code><code class="xml plain">&gt;</code></div><div class="line number3 index2 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">li</code><code class="xml plain">&gt;</code></div><div class="line number4 index3 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">class</code><code class="xml plain">=</code><code class="xml string">"title"</code><code class="xml plain">&gt;${item.title}&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div><div class="line number5 index4 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">data-sly-call</code><code class="xml plain">=</code><code class="xml string">"${nav @ page=item}"</code> <code class="xml plain">data-sly-unwrap&gt;&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div><div class="line number6 index5 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;/</code><code class="xml keyword">li</code><code class="xml plain">&gt;</code></div><div class="line number7 index6 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;/</code><code class="xml keyword">ul</code><code class="xml plain">&gt;</code></div><div class="line number8 index7 alt1"><code class="xml plain">&lt;/</code><code class="xml keyword">template</code><code class="xml plain">&gt;</code></div><div class="line number9 index8 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code> <code class="xml color1">data-sly-call</code><code class="xml plain">=</code><code class="xml string">"${nav @ page=currentPage}"</code> <code class="xml plain">data-sly-unwrap&gt;&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_title_4" style="visibility:hidden"></a><div class="title section"><a name="Expression Options" href="./"></a><a name="Expression Options" href="./"></a><h2>Expression Options</h2></div>
+<a name="par_title_5" style="visibility:hidden"></a><div class="title section"><a name="String Formatting" href="./"></a><a name="String Formatting" href="./"></a><h3>String Formatting</h3></div>
+<a name="par_text_12" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Replaces the enumerated placeholders, {<i>n</i>}, with the corresponding variable:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_47" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_492398" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">${'Page {0} of {1}' @ format=[current, total]}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_title_6" style="visibility:hidden"></a><div class="title section"><a name="Internationalization" href="./"></a><a name="Internationalization" href="./"></a><h3>Internationalization</h3></div>
+<a name="par_text_13" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Translates the string to the language of the current <i>source</i> (see below), using the current <a href="/docs/en/aem/6-0/develop/dev-tools/translator.html">dictionary</a>. If no translation is found, the original string is used.</p>
+</div>
+</div>
+<a name="par_codelisting_sh_51" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_573477" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">${'Page' @ i18n}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_74" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>The hint option can be used to provide a comment for translators, specifying the context in which the text is used:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_62" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_56896" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">${'Page' @ i18n, hint='Translation Hint'}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_76" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>The default source for the language is 'resource', meaning that the text gets translated to the same language as the content. This can be changed to 'user', meaning that the language is taken from the browser locale or from the locale of the logged-in user:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_55" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_851085" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">${'Page' @ i18n, source='user'}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_77" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Providing an explicit locale overrides the source settings:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_56" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_172983" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">${'Page' @ i18n, locale='en-US'}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_79" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>To embed variables into a translated string, the format option can be used:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_57" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_710121" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">${'Page {0} of {1}' @ i18n, format=[current, total]}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_title_7" style="visibility:hidden"></a><div class="title section"><a name="Array Join" href="./"></a><a name="Array Join" href="./"></a><h3>Array Join</h3></div>
+<a name="par_text_71" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>By default, when displaying an array as text, Sightly will display comma separated values (without spacing).</p>
+<p>Use the join option to specify a different separator:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_52" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_578353" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">${['one', 'two'] @ join='; '}</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_title_8" style="visibility:hidden"></a><div class="title section"><a name="Display Context" href="./"></a><a name="Display Context" href="./"></a><h3>Display Context</h3></div>
+<a name="par_text_73" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>The display context of a Sightly expression refers to its location within the structure of the HTML page. For example, if the expression appears in place that would produce a text node once rendered, then it is said to be in a <b><span class="monospaced">text</span></b> context. If it is found within the value of an attribute, then it is said to be in an <b><span class="monospaced">attribute</span></b> context, and so forth.</p>
+</div>
+</div>
+<a name="par_text_84" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>With the exception of script (JS) and style (CSS) contexts, Sightly will automatically detect the context of expressions and escape them appropriately, to prevent XSS security problems. In the case of scripts and CSS, the desired context behavior must be explicitly set. Additionally, the context bahavior can also be explicitly set in any other case where an override of the automatic beahvior is desired.</p>
+<p>Here we have three variables in three different contexts: <b><span class="monospaced">properties.link</span></b> (<span class="monospaced"><b>uri</b></span> context), <b><span class="monospaced">properties.title</span></b> (<b><span class="monospaced">attribute</span></b> context) and <b><span class="monospaced">properties.text&nbsp;</span></b>(<b><span class="monospaced">text</span></b> context). Sightly will escape each of these differently in accordance with the security requirements of their respective contexts. No explicit context setting is required in normal cases such as this one:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_53" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_883736" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">a</code> <code class="xml color1">href</code><code class="xml plain">=</code><code class="xml string">"${properties.link}"</code> <code class="xml color1">title</code><code class="xml plain">=</code><code class="xml string">"${properties.title}"</code><code class="xml plain">&gt;${properties.text}&lt;/</code><code class="xml keyword">a</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_80" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>To safely output markup (that is, where the expression itself evaluates to HTML), the <span class="monospaced"><b>html</b></span> context is used:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_58" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_386488" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code><code class="xml plain">&gt;${properties.richText @ context='html'}&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_81" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Explicit context must be set for style contexts:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_59" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_735056" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">span</code> <code class="xml color1">style</code><code class="xml plain">=</code><code class="xml string">"color: ${properties.color @ context='styleToken'};"</code><code class="xml plain">&gt;...&lt;/</code><code class="xml keyword">span</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_82" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Explicit context must be set for script contexts:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_60" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_665957" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">span</code> <code class="xml color1">onclick</code><code class="xml plain">=</code><code class="xml string">"${properties.function @ context='scriptToken'}();"</code><code class="xml plain">&gt;...&lt;/</code><code class="xml keyword">span</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_text_83" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Escaping and XSS protection can also be turned off:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_61" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div><div id="highlighter_778315" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">div</code><code class="xml plain">&gt;${myScript @ context='unsafe'}&lt;/</code><code class="xml keyword">div</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_title_9" style="visibility:hidden"></a><div class="title section"><a name="Context Settings"></a><a name="Context Settings"></a><h4>Context Settings</h4></div>
+<a name="par_table_4" style="visibility:hidden"></a><div class="parbase table section"><table width="100%" border="1" cellpadding="1" cellspacing="0">
+<tbody><tr><th><b>Context</b></th>
+<th><b>When to use</b></th>
+<th><b>What it does</b></th>
+</tr><tr><td><b><span class="monospaced">text</span></b></td>
+<td><i>Default for content inside elements</i></td>
+<td>Encodes all HTML special characters.</td>
+</tr><tr><td><span class="monospaced"><b>html</b></span></td>
+<td>To safely output markup</td>
+<td>Filters HTML to meet the AntiSamy policy rules,<br>
+removing what doesn't match the rules.</td>
+</tr><tr><td><span class="monospaced"><b>attribute</b></span></td>
+<td><i>Default for attribute values</i></td>
+<td>Encodes&nbsp;all HTML special characters.</td>
+</tr><tr><td><span class="monospaced"><b>uri</b></span></td>
+<td>To display links and paths<br>
+<i>Default for <span class="monospaced">href</span> and <span class="monospaced">src</span> attribute values</i></td>
+<td>Validates URI for writing as an&nbsp;<span class="monospaced">href</span>&nbsp;or <span class="monospaced">src</span>&nbsp;attribute value,<br>
+outputs nothing if validation fails.</td>
+</tr><tr><td><span class="monospaced"><b>number</b></span></td>
+<td>To display numbers</td>
+<td>Validates URI for containing an integer,<br>
+outputs zero if validation fails.</td>
+</tr><tr><td><span class="monospaced"><b>attributeName</b></span></td>
+<td><i>Default for <span class="monospaced">data-sly-attribute</span> when setting attribute names</i></td>
+<td>Validates the attribute name,<br>
+outputs nothing if validation fails.</td>
+</tr><tr><td><span class="monospaced"><b>elementName</b></span></td>
+<td><i>Default for <span class="monospaced">data-sly-element</span></i></td>
+<td>Validates the element name,<br>
+outputs nothing if validation fails.</td>
+</tr><tr><td><span class="monospaced"><b>scriptToken</b></span></td>
+<td>For JS identifiers, literal numbers, or literal strings</td>
+<td>Validates the JavaScript token,<br>
+outputs nothing if validation fails.</td>
+</tr><tr><td><span class="monospaced"><b>scriptString</b></span></td>
+<td>Within JS strings</td>
+<td>Encodes characters that would break out of the string.</td>
+</tr><tr><td><span class="monospaced"><b>scriptComment</b></span></td>
+<td>Within JS comments</td>
+<td>Validates the JavaScript comment,<br>
+outputs nothing if&nbsp;validation fails.</td>
+</tr><tr><td><span class="monospaced"><b>styleToken</b></span></td>
+<td>For CSS identifiers, numbers, dimensions, strings, hex colours or functions.</td>
+<td>Validates the CSS token,<br>
+outputs nothing if validation fails.</td>
+</tr><tr><td><span class="monospaced"><b>styleString</b></span></td>
+<td>Within CSS strings</td>
+<td>Encodes&nbsp;characters that would break out of the string.</td>
+</tr><tr><td><span class="monospaced"><b>styleComment</b></span></td>
+<td>Within CSS comments</td>
+<td>Validates the CSS comment,<br>
+outputs nothing if&nbsp;validation fails.</td>
+</tr><tr><td><span class="monospaced"><b>unsafe</b></span></td>
+<td>Only if none of the above does the job</td>
+<td>Disables escaping and XSS protection completely.</td>
+</tr></tbody></table>
+</div>
+<a name="par_title_24" style="visibility:hidden"></a><div class="title section"><a name="AEM Helpers" href="./"></a><a name="AEM Helpers" href="./"></a><h2>AEM Helpers</h2></div>
+<a name="par_title_26" style="visibility:hidden"></a><div class="title section"><a name="Client Libraries" href="./"></a><a name="Client Libraries" href="./"></a><h3>Client Libraries</h3></div>
+<a name="par_text_113" style="visibility:hidden"></a><div class="text parbase section"><div class="text"><p>Prior to Sightly, <a href="/docs/en/aem/6-0/develop/the-basics/clientlibs.html">client libraries</a> were loaded on a page using a <a href="/docs/en/aem/6-0/develop/the-basics/clientlibs.html#Referencing%20Client-Side%20Libraries%20in%20HTML">JSP taglib</a>. However, JSP taglibs cannot be used in Sightly scripts. Therefore, some helper templates provide this functionality.</p>
+<p>The client libraries helper template library (<b>/libs/granite/sightly/templates/clientlib.html</b>) can be loaded through&nbsp;<b>data-sly-use</b>&nbsp;and stored in a&nbsp;<b>clientLib</b>&nbsp;block element variable. Loading the library's CSS style sheets and JavaScript is done through&nbsp;<b>data-sly-call</b>. The&nbsp;<b>clientLib</b>&nbsp;template library exposes three templates:</p>
+<ul>
+<li><b>css</b>&nbsp;- loads only the CSS files of the referenced client libraries</li>
+<li><b>js</b>&nbsp;- loads only the JavaScript files of the referenced client libraries</li>
+<li><b>all</b>&nbsp;- loads all the files of the referenced client libraries</li>
+</ul>
+<p>Each helper template defines a&nbsp;<b>categories</b>&nbsp;option that accepts either an array of string values or a string containing a comma separated values list for referencing the desired client libraries.</p>
+<p>Here are a few short examples:</p>
+</div>
+</div>
+<a name="par_codelisting_sh_79" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div class="codetitle">Referencing client libraries components in different sections of a page</div>
+<div><div id="highlighter_883841" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">head</code> <code class="xml color1">data-sly-use.clientLib</code><code class="xml plain">=</code><code class="xml string">"${'/libs/granite/sightly/templates/clientlib.html'}"</code><code class="xml plain">&gt;</code></div><div class="line number2 index1 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">css</code> <code class="xml color1">data-sly-call</code><code class="xml plain">=</code><code class="xml string">"${clientLib.css @ categories=['category1', 'category2']}"</code> <code class="xml plain">data-sly-unwrap/&gt;</code></div><div class="line number3 index2 alt2"><code class="xml plain">&lt;/</code><code class="xml keyword">head</code><code class="xml plain">&gt;</code></div><div class="line number4 index3 alt1"><code class="xml plain">&lt;</code><code class="xml keyword">body</code><code class="xml plain">&gt;</code></div><div class="line number5 index4 alt2"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml comments">&lt;!-- content --&gt;</code></div><div class="line number6 index5 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">js</code> <code class="xml color1">data-sly-call</code><code class="xml plain">=</code><code class="xml string">"${clientLib.js @ categories=['category1', 'category2']}"</code> <code class="xml plain">data-sly-unwrap/&gt;</code></div><div class="line number7 index6 alt2"><code class="xml plain">&lt;/</code><code class="xml keyword">body</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
+<a name="par_codelisting_sh_80" style="visibility:hidden"></a><div class="parbase codelisting-sh section">
+
+
+<div class="codetitle">Referencing client libraries in the &lt;head&gt; tag of a page</div>
+<div><div id="highlighter_846731" class="syntaxhighlighter nogutter  xml"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="xml plain">&lt;</code><code class="xml keyword">head</code> <code class="xml color1">data-sly-use.clientLib</code><code class="xml plain">=</code><code class="xml string">"${'/libs/granite/sightly/templates/clientlib.html'}"</code><code class="xml plain">&gt;</code></div><div class="line number2 index1 alt1"><code class="xml spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="xml plain">&lt;</code><code class="xml keyword">clientlib</code> <code class="xml color1">data-sly-call</code><code class="xml plain">=</code><code class="xml string">"${clientLib.all @ categories=['category1', 'category2']}"</code> <code class="xml plain">data-sly-unwrap/&gt;</code></div><div class="line number3 index2 alt2"><code class="xml plain">&lt;/</code><code class="xml keyword">head</code><code class="xml plain">&gt;</code></div></div></td></tr></tbody></table></div></div> 
+<script type="text/javascript">
+    // must be more selective !
+    SyntaxHighlighter.all();
+</script>
+</div>
 
 </div>
+</section></article>

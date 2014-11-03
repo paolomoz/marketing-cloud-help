@@ -10,6 +10,7 @@
 
 <article class="learn-support-page">
     
+<!--
         <section class="learn-section">
 
             <div class="content-wrapper" style="min-height:0;margin-bottom:-70px;">
@@ -20,16 +21,25 @@
     </form>
                 </div>
 </section>
+-->
     
 
     <section class="learn-section">
         <div class="learn">
-            <img src="{{ "/img/hand-touch.png" | prepend: site.baseurl }}">
+            <img src="{{ "/img/marketing_cloud_experience_manager_icon_no_tile_rgb.png" | prepend: site.baseurl }}" style="height:60px;">
             <h1 class="features-title">Learn Experience Manager</h1>
             <div class="text parbase learn-description">
-                <p>Get started or go deeper with our documentation and our library of tutorials, projects and articles.</p>
+                <p>Get started or go deeper with our documentation and our library of tutorials, projects and articles.</p><br/>
             </div>
-            <div style="margin-top: 20px;" id="LearnSupportCards">
+            
+                <form style="" class="serp-search" action="" method="get">
+                    <input style="" class="serp-search-input" name="q" placeholder="Search Experience Manager" autocomplete="off" type="text">
+                    <input style="" class="serp-search-btn" value="" type="submit">
+                    <input style="" id="serp-search-product" name="product" value="" type="hidden">
+                </form>
+            
+<!--
+            <div style="margin-top: 60px;" id="LearnSupportCards">
                 <a class="categoryCard" href="/lightroom/how-to/manage-all-your-photos.html">
                     <img class="cardImage" src="{{ "/img/lightroom-managedigitalimage_297x176.jpg" | prepend: site.baseurl }}">
                     <div style="margin-top: 0px;" class="cardContainer">
@@ -98,91 +108,37 @@
                 </a>
                 <br clear="all">
             </div>
+-->
         </div>
-        <div class="all-tutorials-nav"><a href="">Show all Documentation</a>
+        
+<!--
+        <div class="all-tutorials-nav" style="clear:both;"><a href="">Show all Documentation</a>
         </div>
+-->
+        
+        <div class="topicCards">
+            <div class="topicCard">
+                <a href="{{ "article.html" | prepend: site.baseurl }}">
+                    <img src="{{ "/img/topic-card.png" | prepend: site.baseurl }}"/>
+                </a>
+            </div>
+            <div class="topicCard">
+                <a href="{{ "article.html" | prepend: site.baseurl }}">
+                    <img src="{{ "/img/topic-card.png" | prepend: site.baseurl }}"/>
+                </a>
+            </div>
+            <div class="topicCard">
+                <a href="{{ "article.html" | prepend: site.baseurl }}">
+                    <img src="{{ "/img/topic-card.png" | prepend: site.baseurl }}"/>
+                </a>
+            </div>
+        </div>
+              
+        <div class="all-tutorials-nav" style="clear:both;">
+        </div>
+        
+        
     </section>
-
-    <section class="support-section">
-        <div class="support">
-            <img src="{{ "/img/support-icon.png" | prepend: site.baseurl }}">
-            <h1 class="support-title">Get Support</h1>
-            <div class="text support-description parbase">
-                <p>Find quick answers, engage with our vibrant community, and connect with Adobe staff.</p>
-            </div>
-            <div class="support-options clearfix">
-                <div class="option">
-                    <h2>Common Questions</h2> 
-                    <a href="/lightroom/faq.html" id="common-questions-icon">
-                        <img src="{{ "/img/common-questions.svg" | prepend: site.baseurl }}">
-                    </a>
-                    <p>Find answers to questions we hear the most</p>
-                    <div class="text parbase common-questions-link">
-                        <p><a href="/lightroom/faq.html" adhocenable="false">See them &gt;</a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="option">
-                    <h2>Top Issues</h2> 
-                    <a href="/lightroom/top-issues.html" id="top-issues-icon">
-                        <img src="{{ "/img/top-issues.svg" | prepend: site.baseurl }}">
-                    </a>
-                    <p>Get up-to-date solutions for issues and troubleshooting</p>
-                    <div class="top-issues-link text parbase">
-                        <p><a href="/lightroom/top-issues.html" adhocenable="false">See them &gt;</a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="option">
-                    <h2>Ask the Community</h2>
-                    <a href="http://forums.adobe.com/community/lightroom" id="ask-the-community-icon">
-                        <img src="{{ "/img/ask-community.svg" | prepend: site.baseurl }}">
-                    </a>
-                    <p>Post, discuss and be part of our knowledgeable community</p>
-                    <div class="text parbase ask-the-community-link">
-                        <p><a href="http://forums.adobe.com/community/lightroom" adhocenable="false">Join now &gt;</a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="option">
-                    <h2>Contact Us</h2>
-                    <a href="/contact.html?step=LTRM" id="contact-us-icon">
-                        <img src="{{ "/img/contact-us.svg" | prepend: site.baseurl }}">
-                    </a>
-                    <p>Get help from one of our awesome support people</p>
-                    <div class="text parbase contact-us-link">
-                        <p><a href="/contact.html?step=LTRM" adhocenable="false">Start now &gt;</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="docs-and-feedback">
-            <div class="text parbase pdf-manuals">
-                <p><a adhocenable="false" href="/lightroom/system-requirements.html">System requirements</a>
-                </p>
-            </div>
-            <div class="text parbase release-notes">
-                <p><a href="/lightroom/lightroom-releasenotes.html" adhocenable="false">Release Notes</a>
-                </p>
-            </div>
-            <div class="bug-report text parbase">
-                <p><a adhocenable="false" href="https://www.adobe.com/cfusion/mmform/index.cfm?name=wishform">Report a bug</a>
-                </p>
-            </div>
-            <div class="text parbase contact-us">
-                <p><a href="https://www.adobe.com/cfusion/mmform/index.cfm?name=wishform" adhocenable="false">Request a feature</a>
-                </p>
-            </div>
-        </div>
-
-        <div class="raw-html rawhtml"></div>
-    </section>
-
 
 
 </article>
