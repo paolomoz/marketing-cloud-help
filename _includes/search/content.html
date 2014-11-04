@@ -11,7 +11,7 @@
         <div class="learn">
             <h1 class="features-title">Search Marketing Cloud Help</h1>
 
-            <form style="" class="serp-search" action="" method="get">
+            <form style="" class="serp-search" action="{{ "search.html" | prepend: site.baseurl }}" method="get">
                 <input style="" class="serp-search-input" name="q" placeholder="Search Experience Manager" autocomplete="off" type="text">
                 <input style="" class="serp-search-btn" value="" type="submit">
                 <input style="" id="serp-search-product" name="product" value="" type="hidden">
@@ -26,8 +26,10 @@
             <div style="" class="no-results-headline">Sorry, we couldn’t find any results for “photo” in Lightroom</div>
             <div style="" class="no-results-remove-app hide"><a style="" class="no-results-remove-app-link" href="?q=photo">Search for “photo” in all tutorials</a>
             </div>
+<!--
             <div style="" class="no-results-dot-com-search"><a style="" class="dot-com-search-link" href="//www.adobe.com/cfusion/search/index.cfm?loc=en_US&amp;self=1&amp;lr=en_US&amp;term=photo">Expand my search to all of Adobe.com, not just tutorials</a>
             </div>
+-->
         </div>
 
         <div style="" class="no-results-tips">
@@ -141,7 +143,12 @@
             </ul>
         </div>
 
-        <div style="" class="serp-facets-dot-com-search">Want to look beyond tutorials? <a style="" class="dot-com-search-link" href="//www.adobe.com/cfusion/search/index.cfm?loc=en_US&amp;self=1&amp;lr=en_US&amp;term=photo">Search across the full Adobe.com site</a>.</div>
+<!--
+        <div style="" class="serp-facets-dot-com-search">
+            Want to look beyond tutorials? <a style="" class="dot-com-search-link" href="//www.adobe.com/cfusion/search/index.cfm?loc=en_US&amp;self=1&amp;lr=en_US&amp;term=photo">Search across the full Adobe.com site</a>.
+        </div>
+-->
+        
     </div>
 
     <div style="" class="serp-results">
@@ -153,11 +160,11 @@
 
         <div style="" class="serp-results-list">
             <article class="content-item">
-                <a class="content-item-thumbnail" href="https://helpx.adobe.com/lightroom/how-to/manage-all-your-photos.html">
+                <a class="content-item-thumbnail" href="{{ "article.html" | prepend: site.baseurl }}">
                     <img class="content-item-thumbnail-img" src="{{ "/img/lightroom-managedigitalimage_297x176.jpg" | prepend: site.baseurl }}">
                 </a>
                 <div class="content-item-body">
-                    <p class="content-item-title"><a href="https://helpx.adobe.com/lightroom/how-to/manage-all-your-photos.html">How to manage your digital <span class="query-term">photo</span>s</a>
+                    <p class="content-item-title"><a href="{{ "article.html" | prepend: site.baseurl }}">How to manage your digital <span class="query-term">photo</span>s</a>
                     </p>
                     <p class="content-item-snippet">Learn to import, organize, and perfect your <span class="query-term">photo</span>s in the Lightroom nondestructive editing environment.</p>
                     <div class="content-item-meta">
@@ -195,7 +202,7 @@
                 </div>
             </article>
             <article class="content-item">
-                <a class="content-item-thumbnail" href="https://helpx.adobe.com/lightroom/how-to/lightroom-print-photos.html">
+                <a class="content-item-thumbnail" href="{{ "article.html" | prepend: site.baseurl }}">
                     <img class="content-item-thumbnail-img" src="{{ "/img/lr-generic-05_297x176.jpg" | prepend: site.baseurl }}">
                 </a>
                 <div class="content-item-body">
@@ -365,9 +372,11 @@
         </div>
 
         <div style="" class="serp-results-next-meta">
+<!--
             <div style="" class="results-next-meta-count">Viewing <span style="" id="results-meta-min">1</span>-<span style="" id="results-meta-max">10</span> of <span style="" class="results-meta-total">45</span>
             </div>
-            <div style="" class="more-results-btn">Show next 10 results</div>
+-->
+            <div style="" class="more-results-btn">Infinite scrolling here</div>
             <a style="" class="results-return-to-top" href="#top">Return to top</a>
         </div>
     </div>

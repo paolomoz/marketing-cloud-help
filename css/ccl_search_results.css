@@ -222,7 +222,7 @@ footer {
 /* line 21, ../../src/sass/ccl_search_results/_layout.scss */
 .content-wrapper {
   min-height: 450px;
-  margin-bottom: 180px;
+/*  margin-bottom: 180px;*/
 }
 
 @media only screen and (min-width: 480px) {
